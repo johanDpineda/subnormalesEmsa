@@ -1,0 +1,4448 @@
+/*informacion equipo liga*/
+
+.infoequipoliga{
+    width: 100%;
+      height: auto;
+    }
+
+/* Estilo inicial de los elementos <li> */
+#barra-navegacion li {
+    background-color: transparent;
+  }
+
+  /* Estilo de fondo cuando se selecciona un elemento <li> */
+  #barra-navegacion li.selected {
+    background-color: yellow;
+  }
+
+
+
+  .datosequipoliga{
+    width: 100%;
+    /*background-color: rgb(83 83 83);*/
+      background: rgb(12,12,13);
+      background: linear-gradient(180deg, rgba(12,12,13,1) 0%, rgba(20,20,20,1) 49%, rgba(3,4,4,1) 100%);;
+    /*background-repeat: no-repeat;*/
+    /*background-size: 28px;*/
+  }
+
+  .nav ~ .tab-content{
+
+    width: 100%;
+  }
+
+  .datosprincipalesclub h1{
+    color: white;
+    margin-left: 12px;
+    text-align: end;
+    font-weight: bold;
+}
+
+@media (max-width: 767px){
+    .datosprincipalesclub h1{
+        color: white;
+        margin-left: 12px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+}
+
+  .migaenlace span{
+    color: white;
+  }
+
+  .datosequipoliga > div:first-child {
+    overflow: hidden;
+  }
+
+  .informacionprincipal{
+      width: 100%;
+      max-width: 100%;
+      margin: 0px;
+      position: relative;
+  }
+  .datosligastop{
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  @media (max-width: 767px){
+
+    .datosligastop{
+        padding-top: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px !important;
+      }
+    }
+
+
+
+  .fotoclubid{
+    width: 200px;
+    height: 200px;
+
+  }
+
+  @media (max-width: 767px){
+    .fotoclubid {
+      width: 100px;
+      height: 100px;
+    }
+
+  }
+
+  .logoclub > img, .logoclub > i{
+    flex: 0 0 auto;
+
+  }
+
+  .migaenlace{
+    display: flex;
+      color: rgb(37, 40, 42);
+      padding-left: 10px;
+      /*margin-bottom: 10px;*/
+  }
+  .migaenlace >a ,.migaenlace > span{
+    color: inherit;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+
+
+  .migaenlace > a:not(:last-child)::after{
+    content: ">";
+      position: relative;
+      font-size: 0.8rem;
+      padding: 0px 3px;
+      color: white;
+  }
+
+
+  .enlacedescripcion{
+    display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      font-size: 16px;
+
+  }
+
+
+
+  .infoprincipalclub{
+    width: 100%;
+    height: 265px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+
+  @media (max-width: 767px){
+  .infoprincipalclub {
+    height: auto;
+  }
+
+}
+
+@media (max-width: 767px){
+  .infoprincipalclub {
+    flex-direction: column;
+  }
+
+}
+  .especificaciones{
+    width: 55%;
+      height: 265px;
+      padding: 40px 0px;
+      display: flex;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      align-items: center;
+  }
+
+  @media (max-width: 900px){
+
+  .especificaciones{
+    width: 60%;
+  }
+
+  }
+
+  @media (max-width: 767px){
+
+.especificaciones{
+   width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 10;
+    height: auto;
+}
+
+}
+
+  .logoclubes{
+    width: 200px;
+  }
+
+  @media (max-width: 767px){
+
+.logoclubes {
+  width: 100px;
+    height: 100px;
+}
+}
+
+@media (max-width: 900px) {
+
+.logoclubes{
+   width: 150px;
+}
+
+}
+
+  .logoclub{
+    display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      width: 100%;
+      min-height: auto;
+      -webkit-box-pack: start;
+      justify-content: flex-start;
+      text-align: left;
+  }
+
+  .datosprincipalesclub{
+    width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      justify-content: center;
+  }
+
+  @media (max-width: 767px){
+
+.datosprincipalesclub{
+    width: 100%;
+    padding: 0px 10px;
+}
+
+}
+
+/* @media (max-width: 900px){
+
+.datosprincipalesclub {
+   width: calc(100% - 120px);
+}
+
+} */
+
+
+  .nombreclub{
+    font-size: var(--text-header-font-size);
+      line-height: var(--text-header-line-height);
+      font-weight: normal;
+      color: rgb(37, 40, 42);
+      --text-header-font-size: 2rem;
+      --text-header-font-weight: bolder;
+      --text-header-line-height: inherit;
+      margin: 10px 0px;
+  }
+
+  @media (max-width: 767px){
+
+.nombreclub {
+    --text-header-font-size: 1.2rem;
+}
+
+}
+
+  .dataprincipal{
+    width: 100%;
+  }
+
+  .dataprincipal tr:nth-child(1), .dataprincipal tr:nth-child(3){
+    white-space: nowrap;
+  }
+
+  .dataprincipal tr:nth-child(1) td, .dataprincipal tr:nth-child(3) td{
+    padding-right: 1rem;
+  }
+
+  .dataprincipal td{
+    padding-bottom: 0.02rem;
+    vertical-align: middle;
+
+  }
+
+  .descriptionclub{
+    display: block;
+      font-size: 1.1rem;
+      color: rgb(212 255 0);
+      line-height: 1.5;
+      font-weight: bold;
+  }
+
+  .datosdelclub{
+    display: block;
+      font-size: 1.1rem;
+      color: rgb(253 254 255 / 84%);
+      line-height: 1.5;
+  }
+  .espaciopublicidadclub{
+    display: flex;
+    text-align: right; /* Alinea el contenido del div a la derecha */
+    float: right; /* Mueve el div hacia la derecha */
+  }
+
+  .espaciopublicidadclub a{
+    width: 30px;
+    height: 30px;
+    background: rgb(37, 40, 42);
+    color: #d4ff00;
+    border-radius: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  .espaciopublicidadclub a:hover{
+   color: none;
+  }
+
+  .imagencampo{
+    width: 45%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  }
+
+  @media (max-width: 767px){
+
+.imagencampo {
+  max-height: 250px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.3;
+    left: 40%;
+}
+
+}
+
+@media (max-width: 767px){
+
+    .contendorpartidoos{
+        width: 100%;
+    }
+
+    }
+
+
+
+  .fotocancha{
+
+    height: auto;
+    max-width: 100%;
+    width: 400px;
+    opacity: 0;
+    animation-name: jBcSpD;
+    animation-duration: 300ms;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+  }
+  .imagencampo > .fotocanchas {
+    position: absolute;
+  }
+
+
+  @media (max-width:1389px){
+    /*.datosequipoliga{*/
+    /*  background-image: none;*/
+    /*}*/
+  }
+
+  .migaenlacettt{
+
+    width: 100%;
+    padding-left: 13px;
+
+  }
+
+  table {
+    border-spacing: 0px !important;
+    border-collapse: inherit !important;
+}
+
+
+.table_body{
+    width: 100%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #00000059;
+    border-radius: .6rem;
+    overflow: auto;
+    overflow: overlay;
+}
+
+@media (max-width: 767px){
+
+    .table_body{
+        width: 100%;
+        max-height: calc(89% - 1.6rem);
+        background-color: #26304926 !important;
+        border-radius: .6rem;
+        overflow: auto;
+        overflow: overlay;
+    }
+
+    }
+
+
+
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+
+.tablefdf, th, td {
+    border-collapse: collapse;
+
+    text-align: left;
+}
+
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: rgb(219,255,0) !important;
+    background: linear-gradient(0deg, rgba(219,255,0,1) 0%, rgba(173,203,16,0.8883928571428571) 35%, rgba(212,255,0,0.8631827731092436) 100%) !important;
+
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff30  !important;
+}
+
+
+tbody tr:hover {
+    background-color: #fff6 !important;
+}
+
+.sinhover tr:hover {
+    background-color:transparent !important;
+}
+
+
+@keyframes jBcSpD {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.botonesmenuClub{
+  max-width: 1296px;
+  margin: 0px auto;
+}
+
+.menuclubes{
+  position: relative;
+  z-index: 2;
+}
+
+.enlacemenuclub{
+  position: relative;
+  display: none;
+  padding: 4px 8px;
+  font-size: 1rem;
+  min-height: 38px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  background: rgb(255, 255, 255);
+  color: rgb(37, 40, 42);
+  cursor: pointer;
+}
+
+.enlacesmenu{
+  font-family: fontliga;
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgb(37, 40, 42);
+  margin: 0px 5px;
+}
+
+.fontliga{
+
+  font-family: fontliga!important;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-feature-settings: normal;
+  -moz-font-feature-settings: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.enlacesclubes{
+  display: flex;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.enlacesclubes li:hover, .enlacesclubes li.active {
+  background: aqua;
+  color: rgb(37, 40, 42);
+}
+
+.enlacesclubes li {
+  padding: 4px 8px;
+  display: flex;
+  font-size: 0.8rem;
+  min-height: 42px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-right: 1rem;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: color 0.3s ease 0s, background 0.3s ease 0s;
+  background: rgb(37, 40, 42);
+  color: rgb(233, 224, 224);
+  min-width: 145px;
+}
+
+.listadojugadores{
+  width: 100%;
+  height: auto;
+  padding-top: 65px;
+
+}
+
+.jugadoresclub{
+
+  width: 100%;
+  max-width: 1296px;
+  margin: 0px auto;
+  position: relative;
+}
+
+@media (max-width: 767px){
+
+.listadojugadores {
+   padding-top: 20px;
+}
+
+}
+
+@media (max-width: 900px){
+
+.jugadoresclub {
+  padding: 10px;
+}
+
+}
+
+@media (max-width: 1296px){
+
+.jugadoresclub {
+   padding: 15px;
+}
+
+}
+
+
+
+.titleclub{
+    width: 100%;
+    height: auto;
+    /*background-color: rgb(55 55 55);*/
+    background: rgb(12,12,13);
+    /*background: linear-gradient(180deg, rgba(12,12,13,1) 0%, rgba(20,20,20,1) 49%, rgba(3,4,4,1) 100%);*/
+    /*padding-top: 30px;*/
+}
+
+@media (max-width: 767px){
+
+.titleclub {
+  padding-top: 20px;
+}
+
+}
+
+
+.tituloplantilla{
+  font-size: 1.5rem;
+    line-height: var(--text-header-line-height);
+    font-weight: var(--text-header-font-weight);
+    --text-header-font-size: 2rem;
+    --text-header-font-weight: bolder;
+    --text-header-line-height: inherit;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+
+.tituloplantilla {
+  font-size: 1.2rem;
+    line-height: var(--text-header-line-height);
+    font-weight: var(--text-header-font-weight);
+    --text-header-font-size: 2rem;
+    --text-header-font-weight: bolder;
+    --text-header-line-height: inherit;
+    margin: 10px 0px;
+}
+
+}
+
+.plantillaprincial{
+  width: 100%;
+  display: grid;
+  height: auto;
+  grid-auto-rows: minmax(20px, auto);
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 310px;
+  gap: 8px 20px;
+
+}
+
+@media (max-width: 900px) {
+
+.plantillaprincial{
+   grid-template-columns: repeat(1, 1fr);
+}
+
+}
+
+.jugadoresprincipaleees{
+  height: 100%;
+    min-width: 0px;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
+
+.listadosjugadoreeees{
+  width: 100%;
+    height: auto;
+    min-height: 470px;
+}
+
+.desplieguejugadores{
+  width: 100%;
+    display: grid;
+    height: auto;
+    grid-auto-rows: minmax(20px, auto);
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "STAFF STAFF STAFF STAFF"
+        "GOALKEEPERS GOALKEEPERS GOALKEEPERS GOALKEEPERS";
+    gap: 8px 20px;
+}
+
+@media (max-width: 1024px){
+
+.desplieguejugadores {
+  grid-template-areas:
+        "STAFF STAFF STAFF STAFF"
+        "GOALKEEPERS GOALKEEPERS GOALKEEPERS GOALKEEPERS";
+}
+
+}
+
+.arqueros{
+  height: 100%;
+  min-width: 0px;
+  grid-area: GOALKEEPERS / GOALKEEPERS / GOALKEEPERS / GOALKEEPERS;
+}
+
+.arquerosequip{
+  width: 100%;
+   /* min-height: 450px;*/
+
+}
+
+@media (max-width: 767px){
+
+.arquerosequip {
+  min-height: auto;
+}
+
+}
+
+
+
+.listadosarqueros{
+  width: 100%;
+    height: 30px;
+    border-bottom: 2px solid rgb(212 255 0);
+    margin-bottom: 20px;
+
+}
+
+.listadosarquerostitle{
+  width: 100%;
+    display: grid;
+    height: auto;
+    grid-auto-rows: minmax(20px, auto);
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 1024px){
+
+.listadosarquerostitle{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+}
+
+@media (max-width: 900px) {
+.listadosarquerostitle{
+   grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+.descriptionarquero{
+  font-size: var(--text-header-font-size);
+    line-height: var(--text-header-line-height);
+    font-weight: var(--text-header-font-weight);
+    --text-header-font-size: 1rem;
+    --text-header-font-weight: bold;
+    --text-header-line-height: 1.33;
+    margin: 20px 0px;
+    color: white;
+}
+
+@media (max-width: 767px){
+
+.descriptionarquero {
+  --text-header-font-size: 1rem;
+}
+
+}
+
+.listarqueros{
+  height: 100%;
+    min-width: 0px;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
+
+.arquerostp{
+  width: 100%;
+  height: auto;
+  /*border: 1px solid rgb(148 167 53);*/
+  border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    overflow: hidden;
+    /*padding: 6px;*/
+    box-shadow: 12px 19px 62px 0px rgb(212 255 0 / 15%);
+
+}
+.arquerostp:hover{
+    box-shadow:12px 19px 62px 0px rgb(212 255 0 / 30%);
+}
+
+.arquerostp a{
+  display: block;
+}
+
+.fotoarquero{
+  width: auto;
+    height: 225px;
+    background-color: rgb(0, 0, 0);
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    overflow: hidden;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.jugadorarquero{
+  height: auto;
+    max-width: 100%;
+    opacity: 0;
+    animation-name: jBcSpD;
+    animation-duration: 300ms;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    object-fit: contain;
+
+}
+
+.descripcionarquero{
+  width: 100%;
+    height: auto;
+}
+
+.fotologoarqu{
+  width: 100%;
+
+}
+
+.fotologoarqu img{
+  width: 100%;
+  height: auto;
+}
+
+.fotologoaqueroo{
+  height: auto;
+  max-width: 100%;
+  opacity: 0;
+  animation-name: jBcSpD;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.namearquero{
+    height: 58px;
+    display: flex;
+    padding: 6px 15px;
+    background: #d3fe00;
+    color: black;
+    /*border-radius: 5px;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.namearquerov1{
+  width: 80%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+
+}
+
+
+.namearquerov1 p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.nameprincipalaquero{
+    display: inline-table;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 8px;
+}
+
+.posicionprincialarquero{
+  display: inline-table;;
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+.numeroarquero{
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 20%;
+    margin-top: 16px;
+    margin-right: -6px;
+}
+
+.numerarquero{
+  display: block;
+  font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 767px){
+  .numerarquero{
+    display: block;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    margin-right: 2px;
+  }
+
+  }
+
+
+.fichasdeljugador{
+  width: 100%;
+    height: auto;
+}
+
+.fichasdeljugador > :nth-child(2n+1) {
+  background-color: rgb(0 0 0);
+}
+
+.fichasdeljugador > :nth-child(2n) {
+  background-color: #d3fe00;
+}
+.paisjugadores{
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.fichasdeljugador > * {
+  transition: background-color 0.3s ease 0s;
+}
+
+.paisjugadores > p {
+  width: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 767px){
+  .paisjugadores > p {
+    width: 100%;
+}
+
+
+}
+
+.fichasdeljugador > * p, .fichasdeljugador > * i {
+  transition: color 0.3s ease 0s;
+}
+
+.descriptionpaisdescripcion {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.descriptionpais {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.imagen-enderezada {
+  /*transform: rotate(-8deg);*/
+  margin-top: -15px;
+}
+
+.sinfotoequipo{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px){
+  .sinfotoequipo{
+    width: 76%;
+    height: 107%;
+  }
+
+}
+
+.notificacionnohayjugador{
+  height: 12%;
+  width: 67%;
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+  background-color: #cacaca1f;
+  position: absolute;
+  /* justify-content: center; */
+  display: block;
+}
+
+@media (max-width: 767px){
+  .notificacionnohayjugador{
+       /* position: absolute; */
+       height: 11%;
+       width: 77%;
+       /* grid-column-end: span 1; */
+       /* grid-row-end: span 1; */
+       background-color: #cacaca00 !important;
+       position: absolute!important;
+       /* justify-content: center; */
+       /* display: block;*/
+  }
+
+}
+.nohay{
+  text-align: center;
+    position: absolute;
+    /* bottom: 163px; */
+    top: 5px;
+}
+@media (max-width: 767px){
+  .nohay{
+    text-align: center;
+      position: absolute;
+      top: 5px !important;
+  }
+
+}
+
+.cuadronotificacionjugadores{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.notificacionnohayDT{
+  height: 39px;
+  width: 67%;
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+  background-color: #cacaca1f;
+  position: absolute;
+  /* justify-content: center; */
+  display: block;
+}
+
+@media (max-width: 767px){
+  .notificacionnohayDT{
+       /* position: absolute; */
+       height: 11%;
+       width: 77%;
+       /* grid-column-end: span 1; */
+       /* grid-row-end: span 1; */
+       background-color: #cacaca00 !important;
+       position: absolute!important;
+       /* justify-content: center; */
+       /* display: block;*/
+  }
+
+}
+.nohayDT{
+  text-align: center;
+    position: absolute;
+   top: 2px;
+}
+@media (max-width: 767px){
+  .nohayDT{
+    text-align: center;
+      position: absolute;
+      top: 2px;
+  }
+
+}
+
+.cuadronotificacionDT{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.directorDT{
+  height: 100%;
+    min-width: 0px;
+    grid-area: STAFF / STAFF / STAFF / STAFF;
+
+}
+
+.contenedorDT{
+  width: 100%;
+  /*min-height: 450px;*/
+}
+
+@media (max-width: 767px){
+
+.contenedorDT {
+   min-height: auto;
+}
+
+}
+
+.titleDT{
+  width: 100%;
+  height: 30px;
+  border-bottom: 2px solid rgb(212 255 0);
+  margin-bottom: 20px;
+}
+
+.tituloDT{
+  font-size: var(--text-header-font-size);
+    line-height: var(--text-header-line-height);
+    font-weight: var(--text-header-font-weight);
+    --text-header-font-size: 1rem;
+    --text-header-font-weight: bold;
+    --text-header-line-height: 1.33;
+    margin: 10px 0px;
+    color: white;
+}
+
+@media (max-width: 767px){
+
+.tituloDT {
+  --text-header-font-size: 1rem;
+}
+
+}
+
+.contenedoresDT{
+  width: 100%;
+display: grid;
+height: auto;
+grid-auto-rows: minmax(20px, auto);
+grid-auto-flow: row;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+}
+
+@media (max-width: 900px){
+
+.contenedoresDT {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+.DtPrincipal{
+  height: 100%;
+    min-width: 0px;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
+
+.DtPrincipalequipo{
+
+    /*width: 100%;
+    height: auto;
+    border: 1px solid rgb(213, 215, 215);*/
+
+
+    width: 100%;
+    height: auto;
+    /*border: 1px solid rgb(148 167 53);*/
+    border-radius: 10px;
+    moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    overflow: hidden;
+    /*padding: 6px;*/
+    box-shadow:12px 19px 62px 0px rgb(212 255 0 / 15%);
+}
+.DtPrincipalequipo:hover{
+    box-shadow: 12px 19px 62px 0px rgb(212 255 0 / 30%);
+}
+
+.DtPrincipalequipo a{
+  display: block;
+}
+
+.contenedorfotoDT {
+  width: auto;
+  height: 225px;
+  background-color: rgb(0, 0, 0);
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 0px;
+  overflow: hidden;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.DTPR{
+  height: auto;
+  max-width: 100%;
+  opacity: 0;
+  animation-name: jBcSpD;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@media (max-width: 767px){
+
+    .DTPR{
+        height: 230px;
+        max-width: 100%;
+        opacity: 0;
+        animation-name: jBcSpD;
+        animation-duration: 300ms;
+        animation-timing-function: ease-out;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+      }
+    }
+
+.fichatecnicadt{
+  width: 100%;
+    height: auto;
+}
+
+.nombreDT{
+    /*height: 68px;
+    display: flex;
+    padding: 6px 15px;*/
+
+    height: 68px;
+    display: flex;
+    padding: 6px 15px;
+    background: #d3fe00;
+    color: black;
+    /*border-radius: 5px;*/
+
+}
+
+.datosprincipalesdt{
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.datosprincipalesdt p{
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nameDT{
+  display: block;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: bold;
+
+}
+.countrydt{
+  display: block;
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+.PAISDT{
+  width: 100%;
+    height: auto;
+
+}
+
+.datosprincipalespaisDT{
+  padding: 5px 15px;
+}
+
+.PAISDT > :nth-child(2n+1) {
+  background-color: rgb(41 44 44);
+}
+
+.PAISDT > * {
+  transition: background-color 0.3s ease 0s;
+}
+
+.paisdttt{
+  display: block;
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+.datosprincipalespaisDT p{
+  width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.PAISDT > :nth-child(2n+1) > p {
+  color: inherit;
+}
+
+.PAISDT > * p, .PAISDT > * i {
+  transition: color 0.3s ease 0s;
+}
+
+
+
+
+.volantesequip{
+  width: 100%;
+    min-height: 450px;
+}
+
+@media (max-width: 767px){
+
+.volantesequip{
+  min-height: auto;
+}
+
+}
+
+.listadosvolantes{
+  width: 100%;
+  height: 30px;
+  border-bottom: 2px solid rgb(169, 174, 180);
+  margin-bottom: 20px;
+}
+
+.descriptionvolante{
+  font-size: var(--text-header-font-size);
+    line-height: var(--text-header-line-height);
+    font-weight: var(--text-header-font-weight);
+    --text-header-font-size: 1rem;
+    --text-header-font-weight: bold;
+    --text-header-line-height: 1.33;
+    margin: 10px 0px;
+}
+
+@media (max-width: 767px){
+  .descriptionvolante {
+    --text-header-font-size: 1rem;
+}
+}
+
+.listadosvolantestitle{
+  width: 100%;
+  display: grid;
+  height: auto;
+  grid-auto-rows: minmax(20px, auto);
+  grid-auto-flow: row;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 1024px){
+
+.listadosvolantestitle{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+}
+
+@media (max-width: 900px){
+
+.listadosvolantestitle {
+   grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+.listvolantes{
+  height: 100%;
+    min-width: 0px;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
+
+.volantestp{
+  width: 100%;
+    height: auto;
+    border: 1px solid rgb(213, 215, 215);
+}
+
+.volantestp a{
+  display: block;
+}
+
+.descripcionvolante{
+  width: 100%;
+    height: auto;
+}
+
+.namevolante{
+  height: 68px;
+    display: flex;
+    padding: 6px 15px;
+
+}
+
+.namevolantev1{
+  width: 80%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.namevolante p{
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nameprincipalvolante{
+  display: block;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.posicionprincialvolante{
+  display: block;
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+.numerovolante{
+  display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 20%;
+}
+
+.numervolantes{
+  display: block;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.fichasdeljugadorvolante{
+  width: 100%;
+    height: auto;
+}
+
+.paisjugadoresvolante {
+  padding: 5px 15px;
+}
+
+.fichasdeljugadorvolante > :nth-child(2n+1) {
+  background-color: rgb(41, 44, 44);
+}
+
+
+
+.fichasdeljugadorvolante > * {
+  transition: background-color 0.3s ease 0s;
+}
+
+.descriptionpaisvolante{
+display: block;
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+.fichasdeljugadorvolante > * p, .fichasdeljugadorvolante > * i {
+  transition: color 0.3s ease 0s;
+}
+
+.paisjugadoresvolante > p {
+  width: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 767px){
+
+.paisjugadoresvolante > p {
+  width: 100%;
+}
+
+}
+
+.fichasdeljugadorvolante > :nth-child(2n) {
+  background-color: transparent;
+}
+
+.fotovolante{
+  width: auto;
+    height: 225px;
+    background-color: rgb(0, 0, 0);
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    overflow: hidden;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.jugadorvolante{
+  height: auto;
+    max-width: 100%;
+    opacity: 0;
+    animation-name: jBcSpD;
+    animation-duration: 300ms;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    object-fit: contain;
+
+}
+
+
+
+/* graficas estadisticas deportivas por equipo*/
+
+#container {
+  height: 400px;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+  min-width: 310px;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+rect.highcharts-background {
+  FILL: TRANSPARENT;
+}
+
+g.highcharts-axis-labels .highcharts-xaxis-labels{
+  fill: rgb(239 239 239);
+  Color: '# 3E576F';
+    font-size: '16px'
+}
+
+.titulogruposrr{
+  color: #d3fb04;
+    font-size: 19px;
+    font-family: 'Abel';
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* Estadistica por clubes */
+
+.datosequiposcontroldatos{
+  padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.datosequipposcontrol{
+  width: 100%;
+  max-width: 1296px;
+  margin: 0px auto;
+  position: relative;
+}
+
+@media (max-width: 1296px){
+  .datosequipposcontrol {
+    padding: 15px;
+}
+}
+@media (max-width: 900px){
+  .datosequipposcontrol {
+    padding: 10px;
+}
+
+}
+.contenedorEstadisticas{
+  width: 100%;
+    /*display: grid;*/
+    height: auto;
+    grid-auto-rows: minmax(20px, auto);
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 310px;
+    gap: 20px;
+}
+
+@media (max-width: 900px){
+  .contenedorEstadisticas {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}
+
+.titleestadistica{
+  font-size: 1.2rem;
+    line-height: var(--text-header-line-height);
+    font-weight: var(--text-header-font-weight);
+    --text-header-font-size: 2rem;
+    --text-header-font-weight: bolder;
+    --text-header-line-height: inherit;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+  .titleestadistica {
+    --text-header-font-size: 1.2rem;
+}
+}
+
+.contenedorEstadisticasgrupo{
+  height: 100%;
+    min-width: 0px;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
+
+.datosestadisticoos{
+  background-color: rgb(0, 0, 0);
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 900px){
+  .datosestadisticoos {
+    padding-left: 0px;
+}
+}
+
+
+
+.datosestadisticoos .dataclubesss{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.datosprincipaleeesGrupo{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 420px){
+  .datosprincipaleeesGrupo {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+}
+
+
+@keyframes lbWRkT {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.datosestadisticoos .dataclubesss .show{
+  flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dattosgrupos .show{
+  animation: 0.3s ease-in 0.3s 1 normal forwards running lbWRkT;
+    min-height: unset;
+}
+
+.dattosgrupos{
+  width: 100%;
+    height: 100%;
+    padding: 0px;
+    min-height: 100% !important;
+}
+
+.descriptionpartidos{
+  font-size: var(--text-header-font-size);
+    line-height: var(--text-header-line-height);
+    font-weight: bold;
+    --text-header-font-size: 1rem;
+    --text-header-font-weight: bold;
+    --text-header-line-height: 1.33;
+    margin: 10px 0px;
+}
+
+@media (max-width: 767px){
+  .descriptionpartidos {
+    --text-header-font-size: 1rem;
+}
+}
+
+/*.tab-content{*/
+/*  background-color: #000000;*/
+
+/*}*/
+
+@media (max-width: 767px){
+  .tab-content {
+    --text-header-font-size: 1rem;
+}
+}
+
+@media (max-width: 420px){
+  .tab-content {
+    padding: 0px 0px 0px 0px;
+}
+}
+
+
+
+
+.datosestadisticoos .dataclubesss .show .datosgruopdago{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.estadisticasht{
+  width: 100%;
+    flex: 1 1 auto;
+}
+
+.estadisticasbtn{
+  min-height: 60px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px){
+.estadisticasbtn {
+    flex-wrap: wrap;
+}
+}
+
+
+
+.estadisticasbtnbbg:last-of-type{
+  margin-bottom: 0px;
+}
+
+.estadisticasbtnbbg{
+  min-height: 60px;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgb(215 255 20 / 61%);
+}
+
+@media (max-width: 767px){
+  .estadisticasbtnbbg {
+    flex-wrap: wrap;
+}
+}
+
+.estadisticasfinaluy{
+  background-color: #abc81f;
+    width: 70%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+@media (max-width: 767px){
+  .estadisticasfinaluy {
+    padding: 0px 0px 0px 15px;
+}
+
+}
+@media (max-width: 420px){
+  .estadisticasfinaluy {
+    padding: 0px 0px 0px 10px;
+}
+}
+
+.estadisticasfinalfsd{
+  background-color: #7e9800;
+    width: 30%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+@media (max-width: 767px){
+  .estadisticasfinalfsd {
+    padding: 0px 0px 0px 15px;
+}
+}
+
+@media (max-width: 420px){
+  .estadisticasfinalfsd {
+    padding: 0px 0px 0px 10px;
+}
+}
+
+.estadostrfd{
+  display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 40px;
+    justify-content: space-around;
+    width: auto;
+}
+
+@media (max-width: 767px){
+  .estadostrfd {
+    padding: 0px;
+}
+}
+@media (max-width: 420px){
+  .estadostrfd {
+    padding: 0px;
+}
+}
+
+.font-ligadago{
+  font-family: 'abel'!important;
+
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-feature-settings: normal;
+    -moz-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.estadisttticas{
+  font-family: 'abel';
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    /*margin: 0px 20px 0px 0px;*/
+}
+
+@media (max-width: 767px){
+  .estadostrfd i {
+      margin: 10px;
+      font-size: 2.6rem;
+  }
+}
+
+
+
+@media (max-width: 420px){
+  .estadostrfd i {
+    margin: 8px;
+    font-size: 2rem;
+}
+
+}
+
+
+
+
+.estadisticaaaser{
+  display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 40px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+@media (max-width: 767px){
+  .estadisticaaaser {
+    padding: 0px;
+}
+}
+
+
+
+@media (max-width: 420px){
+  .estadisticaaaser {
+    padding: 0px;
+}
+
+}
+
+
+.estadisticaaaser:last-of-type
+{
+  padding: 0px;
+}
+
+.estadisticaaaser{
+  display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 40px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+@media (max-width: 767px){
+  .estadisticaaaser {
+    padding: 0px;
+}
+}
+
+@media (max-width: 420px){
+  .estadisticaaaser {
+    padding: 0px;
+}
+}
+
+.titlepartidosjugadooos{
+  display: flex;
+    flex-direction: row;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+@media (max-width: 767px){
+  .titlepartidosjugadooos {
+    flex-direction: column;
+    align-items: flex-start;
+}
+}
+
+.partijugados{
+  display: block;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.partijugadosgfd{
+  display: block;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: right;
+}
+
+.partidoosju{
+  display: block;
+    margin: 0px;
+    line-height: 1;
+    margin-left: 6px
+}
+
+.iconcancha{
+  top: 33px;
+  width: 44px;
+  height: 44px;
+}
+
+@media (max-width: 420px){
+    .iconcancha{
+        top: 33px;
+        width: 30px;
+        height: 34px;
+      }
+
+    }
+
+.partidosspendientes{
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 40px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media (max-width: 767px){
+  .partidosspendientes {
+    padding: 0px;
+}
+}
+
+@media (max-width: 420px){
+.partidosspendientes {
+    padding: 0px;
+}
+}
+
+
+.partidosspendientes:last-of-type {
+  padding: 0px;
+}
+
+.datospartidospendientes{
+  display: flex;
+    flex-direction: row;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+@media (max-width: 767px){
+  .datospartidospendientes {
+    flex-direction: column;
+    align-items: flex-start;
+}
+}
+
+.titlependientes{
+  display: block;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.partidospendienteess{
+  display: block;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.pendienteeees{
+  display: block;
+margin: 0px;
+line-height: 1;
+}
+
+
+.contenedorvictorias{
+  background-color: #d1f816;
+    width: 50%;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+@media (max-width: 767px){
+  .contenedorvictorias {
+    padding: 0px 0px 0px 15px;
+}
+}
+
+@media (max-width: 420px){
+.contenedorvictorias {
+    padding: 0px 0px 0px 10px;
+}
+}
+
+.contenedorempates{
+  background-color: #adce10;
+  width: 50%;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+@media (max-width: 767px){
+.contenedorempates {
+    padding: 0px 0px 0px 15px;
+}
+}
+
+@media (max-width: 420px){
+  .contenedorempates {
+    padding: 0px 0px 0px 10px;
+}
+}
+
+.contenedorderrotas{
+    background-color: #242626;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 5px 25px;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 767px){
+  .contenedorderrotas {
+      padding: 0px 0px 0px 15px;
+  }
+  }
+
+  @media (max-width: 420px){
+    .contenedorderrotas {
+        background-color: rgb(190, 21, 21);
+        width: 100%;
+        display: flex;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 8px 12px;
+        margin-bottom: 9px;
+  }
+  }
+
+
+
+.cont1{
+  display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 40px;
+    justify-content: space-around;
+    width: auto;
+}
+
+@media (max-width: 767px)
+{
+  .cont1 {
+    padding: 0px;
+}
+}
+
+@media (max-width: 420px){
+  .cont1 {
+    padding: 0px;
+}
+}
+
+
+
+
+.cont2{
+  display: flex;
+flex-direction: column;
+-webkit-box-align: center;
+align-items: center;
+height: 40px;
+justify-content: space-around;
+width: auto;
+}
+
+@media (max-width: 767px){
+.cont2 {
+    padding: 0px;
+}
+}
+
+@media (max-width: 420px){
+.cont2 {
+    padding: 0px;
+}
+}
+
+.cont2:last-of-type {
+  padding: 0px;
+}
+
+.estadisticasgold{
+  font-family: font-laliga;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(37, 40, 42);
+    margin: 0px 20px 0px 0px;
+}
+
+@media (max-width: 767px){
+.iconmarcadoresempate i {
+    margin: 10px;
+    font-size: 2.6rem;
+}
+}
+
+@media (max-width: 420px){
+  .iconmarcadoresempate i {
+    margin: 8px;
+    font-size: 2rem;
+}
+}
+
+@media (max-width: 767px){
+.cont1 i {
+    margin: 10px;
+    font-size: 2.6rem;
+}
+}
+
+
+
+@media (max-width: 420px){
+.cont1 i {
+    margin: 8px;
+    font-size: 2rem;
+}
+}
+
+
+
+.margenvictorias{
+  display: flex;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+@media (max-width: 767px){
+  .margenvictorias {
+    padding-right: 10px;
+}
+
+}
+
+
+.textmarcadores{
+  display: block;
+    font-size: 1rem;
+    color: rgb(37, 40, 42);
+    line-height: 1.5;
+}
+
+.textmarcadorempate{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 40px;
+  justify-content: space-around;
+  width: auto;
+}
+
+@media (max-width: 767px){
+  .textmarcadorempate {
+    padding: 0px;
+}
+}
+
+@media (max-width: 420px){
+.textmarcadorempate {
+    padding: 0px;
+}
+}
+
+.contenmarcadorempate{
+  display: flex;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+@media (max-width: 767px){
+  .contenmarcadorempate {
+    padding-right: 10px;
+}
+
+}
+
+.nummarcadores{
+  display: block;
+    font-size: 2rem;
+    color: rgb(37, 40, 42);
+    line-height: 1.5;
+}
+.textoempatees{
+  display: block;
+    font-size: 1rem;
+    color: rgb(37, 40, 42);
+    line-height: 1.5;
+}
+.numeroempates{
+  display: block;
+    font-size: 2rem;
+    color: rgb(37, 40, 42);
+    line-height: 1.5;
+}
+.textoderrotas{
+    display: block;
+      font-size: 1rem;
+      color: rgb(255, 255, 255);
+      line-height: 1.5;
+  }
+  .numeroderrotas{
+    display: block;
+      font-size: 2rem;
+      color: rgb(244, 249, 252);
+      line-height: 1.5;
+  }
+.infogoles{
+  display: block;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+.totalgoooles{
+  display: block;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.totalasistenciaas{
+  display: block;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+@media (max-width: 767px){
+  .totalasistenciaas {
+    font-size: 0.8rem;
+}
+}
+
+@media (max-width: 420px){
+  .totalasistenciaas {
+    font-size: 0.8rem;
+}
+}
+
+.marcatotal{
+  display: block;
+    margin: 0px;
+    line-height: 1;
+}
+
+.iconmarcadoresempate{
+  display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 40px;
+    justify-content: space-around;
+    width: auto;
+}
+@media (max-width: 767px){
+.iconmarcadoresempate {
+    padding: 0px;
+}
+}
+
+
+@media (max-width: 420px){
+  .iconmarcadoresempate {
+    padding: 0px;
+}
+
+}
+
+
+.informacionpartidosdatos{
+  display: flex;
+    align-self: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-right: 2px solid rgb(255, 255, 255);
+    width: 25%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: visible;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 767px){
+  .informacionpartidosdatos {
+    width: 50%;
+    border: 0px;
+    margin: 10px 0px;
+}
+}
+@media (max-width: 767px){
+  .informacionpartidosdatos:nth-child(2n+1) {
+    border-right: 2px solid rgb(255, 255, 255);
+}
+
+}
+
+.iconinformacionpartidos{
+  display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 40px;
+    justify-content: space-around;
+    padding: 0px 15px 0px 0px;
+    width: auto;
+}
+
+@media (max-width: 767px){
+  .iconinformacionpartidos {
+    padding: 0px;
+}
+}
+
+@media (max-width: 420px){
+.iconinformacionpartidos {
+    padding: 0px;
+}
+}
+
+.textinformacionpartidos{
+  display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 40px;
+    justify-content: space-around;
+    width: auto;
+}
+
+@media (max-width: 767px){
+  .textinformacionpartidos {
+    padding: 0px;
+}
+}
+
+@media (max-width: 420px){
+  .textinformacionpartidos {
+    padding: 0px;
+}
+}
+
+.textinformacionpartidos:last-of-type {
+  padding: 0px;
+}
+
+.iconpartidosclub{
+  font-family: font-laliga;
+    text-align: center;
+    font-size: 2.4rem;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+@media (max-width: 767px){
+  .informacionpartidosdatos i {
+    padding-right: 10px;
+}
+}
+@media (max-width: 767px){
+  .iconinformacionpartidos i {
+    margin: 10px;
+    font-size: 2.6rem;
+}
+}
+
+@media (max-width: 420px){
+.iconinformacionpartidos i {
+    margin: 0px;
+    font-size: 2rem;
+}
+}
+
+.conteinfopartidos{
+  display: flex;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+@media (max-width: 767px){
+  .conteinfopartidos {
+    padding-right: 10px;
+}
+}
+
+.informacionpartidosdatosgg{
+  display: flex;
+  align-self: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-right: 2px solid rgb(255, 255, 255);
+  width: 25%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: visible;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px){
+  .informacionpartidosdatosgg {
+    width: 50%;
+    border: 0px;
+    margin: 10px 0px;
+}
+}
+
+.informacionpartidosdatosgg:last-of-type {
+  border: 0px;
+}
+
+
+/*partidos del club*/
+
+.contendoresdepartidosclub{
+  width: 100%;
+  height: auto;
+  background-image: url(../img/fondo_mifutbol.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fondooo{
+    background-image: url(../img/bannersuperiormifutbol.jpg);
+}
+
+@media (max-width: 767px){
+    .contendoresdepartidosclub{
+        width: 100%;
+          height: auto
+      }
+  }
+
+.contendorpartidos{
+  width: 100%;
+    height: auto;
+}
+
+
+.encabezado {
+  width: 100%;
+  max-width: 1296px;
+  margin: 0px auto;
+  position: relative;
+}
+
+@media (max-width: 1296px){
+.encabezado {
+    padding: 15px;
+}
+
+}
+
+@media (max-width: 900px){
+.encabezado {
+    padding: 10px;
+}
+}
+
+.titulopartidos {
+  width: 100%;
+  height: auto;
+  background-color: rgb(15 15 15 / 26%);
+  padding-top: 10px;
+}
+
+@media (max-width: 767px){
+  .titulopartidos {
+    padding-top: 20px;
+}
+
+}
+
+.encabezadoprogramacion {
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  @media (max-width: 1296px){
+  .encabezadoprogramacion {
+      padding: 15px;
+  }
+
+  }
+
+  @media (max-width: 900px){
+  .encabezadoprogramacion {
+      padding: 10px;
+  }
+  }
+
+  .titulopartidosprogramacion {
+    width: 100%;
+    height: auto;
+    background-color:#d3fb04;
+    min-height: 226px;
+    padding: 15px 0px;
+    margin-bottom: 5px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-top: 8px;
+    background-image: url('../img/clubdagoff.png');
+  }
+
+  @media (max-width: 767px){
+    .titulopartidosprogramacion {
+      padding-top: 20px;
+  }
+
+  }
+
+  .informacionprogramacion{
+    width: 100%;
+    max-width: 1296px;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .migaprogramacion{
+
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+
+.migaprogramacion > a, .migaprogramacion > span {
+    color: inherit;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.inicioprogramacion{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.migaprogramacion > a:not(:last-child)::after, .migaprogramacion > span:not(:last-child)::after {
+    content: ">";
+    position: relative;
+    font-size: 0.8rem;
+    padding: 0px 3px;
+}
+
+  .tiponameprogramacion{
+    margin: 20px 0px 50px;
+}
+
+@media (min-width: 767px)
+{
+   .textoprogramacionliga {
+    font-size: 32px;
+}
+}
+
+.textoprogramacionliga {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: "Abel";
+    font-variation-settings: "wght" 800, "wdth" 440;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+@media (max-width: 767px)
+{
+    .textoprogramacionliga {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-family: "Abel";
+        font-variation-settings: "wght" 800, "wdth" 440;
+        font-size: 22px;
+        line-height: 100%;
+    }
+}
+
+
+.select-style {
+    width: 220px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #b5dd15;
+    border-radius: 4px;
+    background-color: #4e5455d6;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23fff"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 28px;
+    padding-right: 30px;
+  }
+
+  @media (max-width: 767px)
+{
+    .select-style {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #b5dd15;
+        border-radius: 4px;
+        background-color: #4e5455d6;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>');
+        background-repeat: no-repeat;
+        background-position: right 8px center;
+        background-size: 28px;
+        padding-right: 30px;
+      }
+
+}
+
+  .select-style:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border-color: rgba(81, 203, 238, 1);
+  }
+
+  .select-style option {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .select-style option:last-child {
+    border-bottom: none;
+  }
+
+.listafechas{
+    opacity: 0;
+    max-height: 0px;
+    width: calc(100% + 2px);
+    padding: 0px 0.5rem 0.5rem;
+    overflow: auto;
+    position: absolute;
+    left: -1px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(37, 40, 42);
+    border-style: solid;
+    border-color: transparent;
+    transition: max-height 0.3s ease 0s, color 0.3s ease 0s, border-color 0.3s ease 0s, background-color 0.3s ease 0s, opacity 0.3s ease 0s;
+    font-size: 0.8rem;
+    top: 100%;
+    border-width: 0px 1px 1px;
+    border-radius: 0px 0px 3px 3px;
+
+}
+
+.selecfechaliga{
+    padding: 0px;
+    transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+    pointer-events: none;
+    background-color: rgb(0, 119, 200);
+    color: rgb(255, 255, 255);
+}
+
+.opcionselect > a {
+    display: block;
+    padding: 0.5rem 0.25rem;
+}
+
+
+  .titulopartidoos {
+    font-size: 1.2rem;
+    line-height: var(--text-header-line-height);
+    font-weight: var(--text-header-font-weight);
+    --text-header-font-size: 2rem;
+    --text-header-font-weight: bolder;
+    --text-header-line-height: inherit;
+    text-align: center;
+  }
+
+  .subtitlopartidos {
+    font-size: var(--text-header-font-size);
+    line-height: var(--text-header-line-height);
+    font-weight: var(--text-header-font-weight);
+    --text-header-font-size: 1rem;
+    --text-header-font-weight: bold;
+    --text-header-line-height: 1.33;
+    margin: 10px 6px;
+  }
+
+
+
+.tablapartidosclub {
+  width: 100%;
+  max-width: 1296px;
+  margin: 0px auto;
+  position: relative;
+}
+
+@media (max-width: 1296px){
+.tablapartidosclub {
+    max-width: 100%;
+    margin: 0px auto;
+    position: relative;
+    padding: 0px;
+}
+}
+
+@media (max-width: 900px){
+.tablapartidosclub {
+
+    max-width: 100%;
+    margin: 0px auto;
+    position: relative;
+    padding: 0px;
+}
+}
+
+.titulopartidoosprogramacion {
+  font-size: 1.2rem;
+  line-height: var(--text-header-line-height);
+  font-weight: var(--text-header-font-weight);
+  --text-header-font-size: 2rem;
+  --text-header-font-weight: bolder;
+  --text-header-line-height: inherit;
+  text-align: center;
+  color: #333;
+  font-family: 'abel';
+}
+
+.subtitlopartidosprogramacion {
+  font-size: var(--text-header-font-size);
+  line-height: var(--text-header-line-height);
+  font-weight: var(--text-header-font-weight);
+  --text-header-font-size: 1rem;
+  --text-header-font-weight: bold;
+  --text-header-line-height: 1.33;
+  margin: 10px 0px;
+  color: #333;
+  font-family: 'abel';
+}
+
+.contenedorpartidos {
+  width: 100%;
+  /*display: grid;*/
+  height: auto;
+  grid-auto-rows: minmax(20px, auto);
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 310px;
+  gap: 20px;
+}
+
+@media (max-width: 900px){
+.contenedorpartidos {
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+
+.tablatotalpartidos {
+  height: 100%;
+  min-width: 0px;
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+}
+
+.contenpatidostotal{
+  position: relative;
+    width: 100%;
+}
+
+.componentv2 .componentv4 {
+  margin-top: -10px;
+}
+
+.componentv2 .componentv4::before {
+  border-top: 8px solid transparent;
+}
+
+
+.componentv6.componentv4::before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.componentv6::before, .componentv6::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.componentv2 {
+  color: #fff;
+  background: #222;
+  border: 1px solid transparent;
+}
+
+.componentv6 {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  padding: 8px 21px;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}
+
+.tablee{
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.containerProgramado{
+    display: none;
+}
+
+.partidosclubes {
+  width: 100%;
+  font-size: 1rem;
+}
+.player-infomovilprogramado {
+    display: block;
+    width: max-content;
+}
+.nohaypartidomovil{
+    display: none;
+}
+@media (max-width: 767px){
+
+    .czlpZsmovil{
+        background: #0000003b;
+    }
+    .nohaypartidomovil{
+        display: block;
+    }
+    /* .czlpZsmovil:nth-child(even) {
+        background: #ffffff30;
+        border-bottom: 1px solid #ccc;
+    } */
+.partidosclubes {
+    display: none;
+}
+.containerProgramado{
+    display: block;
+    width: 100%;
+}
+
+.contenedor-equipos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #ccc;
+    padding: 10px;*/
+    max-width: 400px; /* Puedes ajustar el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Para centrarlo en la página */
+
+}
+.titulomovilprogramado{
+    font-size: 1.5rem;
+    color: #d4ff00;
+    font-weight: bold;
+    text-align: center;
+}
+.texntomovilprogramado{
+    color: white;
+    text-align: center;
+}
+
+
+
+.clubespartidosmovil {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.VS {
+    flex: 0 0 30px; /* Ancho fijo para el "VS" */
+    text-align: center;
+    font-size: 24px;
+    padding: 0 10px;
+    color: #333;
+}
+.VSresultado{
+
+    text-align: center;
+    font-size: 24px;
+    padding: 0 10px;
+    color: #333;
+}
+.textoequipo1movil {
+
+    margin-top: 4px;
+}
+.textoequipo2movil {
+
+     margin-top: 4px;
+}
+.iconclubesligamovil {
+    width: 3rem;
+    height: 3rem;
+}
+.nameclubmovil {
+    display: block;
+    font-size: 0.9em;
+    color: rgb(255, 255, 251);
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.contenedor-partido{
+    display: flex;
+    border-top: 1px solid #ccc;
+}
+
+.info-partido {
+
+    width: 100%;
+
+}
+
+.contenedor-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Opcional: Ajusta el ancho del contenedor */
+}
+
+.elemento {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.elementomasdetalles {
+    flex: 1;
+    display: block;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 7px;
+    margin-top: 7px;
+
+}
+.infopartidoprogramadoMovil{
+    padding: 10px 20px;
+    background-color: #d4ff00;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.infopartidoverMovil{
+    padding: 10px 20px;
+    background-color: #d4ff00;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 767px){
+  .partidosclubes thead, .partidosclubes tbody {
+    display: block;
+    width: 100%;
+}
+}
+
+.barraopcionespartidos {
+    background: rgb(212 255 0);
+}
+
+@media (max-width: 767px){
+.barraopcionespartidos {
+    display: none;
+}
+}
+
+
+
+.descriptablapartidos{
+
+  height: 48px;
+  padding: 2px 10px;
+  color: rgb(8, 8, 8) !important;
+  font-size: 0.8em;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px)
+{
+  .descriptablapartidos {
+    padding: 2px 5px;
+}
+}
+
+
+.descripcionesspartido{
+
+    position: relative;
+    background: rgb(0 0 0);
+
+}
+
+@media (max-width: 767px){
+  .descripcionesspartido {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 10px 0px;
+}
+}
+
+.tablepartidoo {
+  height: 48px;
+  padding: 2px 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media (max-width: 1024px){
+  .tablepartidoo {
+    padding: 2px 5px;
+}
+}
+
+
+@media (max-width: 767px){
+.tablepartidoo {
+    padding: 0px 0px 5px;
+    display: block;
+    height: auto;
+    flex: 0 1 50%;
+    text-align: left;
+}
+}
+
+
+.descrip1 {
+  padding: 0px 2px 0px 5px;
+  width: 140px;
+}
+
+@media (max-width: 1296px){
+  .descrip1 {
+      width: 125px;
+  }
+  }
+
+@media (max-width: 900px){
+  .descrip1 {
+    width: auto;
+}
+}
+
+
+
+.fechapartido{
+  display: block;
+    font-size: 0.8em;
+    color: rgb(204 237 19);
+    line-height: 1.5;
+    display: contents;
+}
+
+@media (min-width: 767px){
+.descrip2 {
+    width: auto !important;
+    min-width: auto !important;
+}
+}
+
+.descrip2 {
+  height: 48px;
+  padding: 2px 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media (max-width: 1024px){
+.descrip2 {
+    padding: 2px 5px;
+}
+}
+
+@media (max-width: 767px){
+.descrip2 {
+  padding: 0px 0px 5px;
+  display: block;
+  height: auto;
+  flex: 0 1 50%;
+  text-align: right
+}
+}
+.tablepartidoo1 {
+  padding: 0px 2px;
+  width: 110px;
+}
+
+@media (max-width: 1296px){
+  .tablepartidoo1 {
+      width: 95px;
+  }
+  }
+
+  @media (max-width: 900px){
+  .tablepartidoo1 {
+      width: auto;
+  }
+  }
+
+  table td {
+    text-align: center;
+}
+
+
+
+.tablepartidoo1 i{
+  display: none;
+}
+@media (max-width: 767px){
+  .tablepartidoo1 i {
+    display: inline;
+}
+
+}
+
+
+.varhora{
+  font-family: font-laliga;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(254, 249, 206);
+    margin: 0px 5px;
+}
+
+.horapartido{
+  display: block;
+    font-size: 0.8em;
+    color: rgb(204 237 19);
+    line-height: 1.5;
+}
+
+.tablepartidoo1 p{
+  white-space: nowrap;
+  display: contents;
+}
+
+.descrip3 {
+  width: 550px;
+}
+
+@media (max-width: 1296px){
+  .descrip3 {
+      min-width: 320px;
+  }
+  }
+
+  @media (max-width: 767px){
+    .descrip3 {
+        min-width: auto;
+    }
+    }
+
+@media (min-width: 767px){
+  .tablepartidoo2 {
+    width: auto !important;
+    min-width: auto !important;
+}
+
+}
+
+.tablepartidoo2 {
+  height: 48px;
+  padding: 2px 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media (max-width: 1024px){
+.tablepartidoo2 {
+    padding: 2px 5px;
+}
+}
+
+@media (max-width: 767px){
+  .tablepartidoo2 {
+    padding: 0px 0px 5px;
+    display: block;
+    height: auto;
+    flex: 0 1 100%;
+}
+
+}
+
+
+.partidosoficiales {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 30px;
+}
+
+/* Estilo predeterminado si ninguna condición se cumple */
+.partidosoficiales.estiloPredeterminado {
+    justify-content: center !important;
+}
+
+/* Otro estilo cuando $contadorDivs es mayor a 4 */
+.partidosoficiales.otroEstilo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 30px;
+    justify-content: left !important; /* Se aplicará si la condición se cumple */
+}
+
+/* CondicionCumplida cuando $contadorDivs es menor o igual a 4 */
+.partidosoficiales.condicionCumplida {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 30px;
+    justify-content: center !important; /* Valor predeterminado */
+}
+
+
+
+@media (max-width: 767px){
+    .partidosoficiales{
+
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        min-height: 30px;
+        justify-content: flex-start !important;
+    }
+
+  }
+
+.clubespartidos{
+  width: calc(50% - 30px);
+    overflow: hidden;
+}
+
+.cluboficiales{
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    min-height: auto;
+    flex-direction: row-reverse;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    text-align: right;
+}
+
+.cluboficialesop2 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  min-height: auto;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+
+
+.equipooo.cclubs.equipoliga {
+  background-position: 0px -375px;
+}
+
+.equipooo.cclubs {
+  background-position: 0px 0px;
+}
+
+.equipooo.cclubs {
+  display: block;
+  background-image: url(./shield-sprite1683910382.png);
+  background-size: 25px 1475px;
+  width: 25px;
+  height: 25px;
+}
+
+.cluboficiales > img, .cluboficiales > i {
+  flex: 0 0 auto;
+}
+
+.cluboficiales > p {
+  margin-right: 5px;
+  display: contents;
+}
+
+.nameclub {
+
+    font-size: 0.8em;
+    color: rgb(255, 255, 251);
+    line-height: 1.5;
+    text-transform: uppercase;
+    display: contents;
+
+}
+
+@media (max-width: 1296px){
+  .nameclub {
+    display: block;
+    font-size: 0.75em;
+    color: rgb(255, 255, 251);
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+  }
+
+  @media (max-width: 767px){
+    .nameclub {
+      display: block;
+      font-size: 0.75em;
+      color: rgb(255, 255, 251);
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+    }
+
+.clubespartidosgf{
+  position: relative;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0px 8px;
+}
+.clubespartidosgf .live {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 2px 0px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+.marcadores{
+  display: block;
+  font-size: 1em;
+  color: rgb(204 237 19);
+  line-height: 1.5;
+  display: contents;
+}
+
+.iconclubesliga{
+  width: 2rem;
+  height: 2rem;
+}
+
+.iconclubesliga .size-xs {
+  width: 25px;
+  height: 25px;
+}
+
+.cluboficialesop2 > img, .cluboficialesop2 > i {
+  flex: 0 0 auto;
+}
+
+.cluboficialesop2 > p {
+  margin-left: 5px;
+  display: contents;
+}
+
+
+
+@media (min-width: 767px){
+.competicionliga {
+    width: auto !important;
+    min-width: auto !important;
+}
+}
+
+.competicionliga{
+  height: 48px;
+  padding: 2px 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+@media (max-width: 1024px){
+  .competicionliga {
+    padding: 2px 5px;
+}
+
+}
+
+@media (max-width: 767px){
+  .competicionliga {
+    padding: 0px 0px 5px;
+    display: block;
+    height: auto;
+    flex: 0 1 50%;
+    text-align: left;
+}
+}
+
+
+.competicionligacancha{
+    height: 48px;
+    padding: 2px 10px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  @media (max-width: 1024px){
+    .competicionligacancha {
+      padding: 2px 5px;
+  }
+
+  }
+
+  @media (max-width: 767px){
+    .competicionligacancha {
+      padding: 0px 0px 5px;
+      display: block;
+      height: auto;
+      flex: 0 1 50%;
+      text-align: right;
+  }
+  }
+
+  .table-bordered {
+    border: none;
+  }
+
+ /* Media query para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    .table-bordered {
+      border: none; /* Eliminar los bordes de la tabla en dispositivos móviles */
+    }
+  }
+
+.titulocompeticion{
+  display: block;
+    font-size: 0.8em;
+    color: rgb(255, 255, 251);
+    line-height: 1.5;
+    display: contents;
+}
+
+@media (min-width: 767px)
+{
+  .verpartido {
+    width: auto !important;
+    min-width: auto !important;
+}
+}
+
+
+.verpartido {
+  height: 48px;
+  padding: 2px 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media (max-width: 1024px)
+{
+  .verpartido {
+    padding: 2px 5px;
+}
+}
+
+@media (max-width: 767px){
+.verpartido {
+    padding: 0px 0px 5px;
+    display: block;
+    height: auto;
+    flex: 0 1 100%;
+    text-align: right;
+}
+}
+
+
+.verpartidofdf {
+    height: 100%;
+    padding: 2px 10px;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  @media (max-width: 1024px)
+  {
+    .verpartidofdf {
+      padding: 2px 5px;
+  }
+  }
+
+  @media (max-width: 767px){
+  .verpartidofdf {
+      padding: 0px 0px 5px;
+      display: block;
+      height: auto;
+      flex: 0 1 100%;
+      text-align: right;
+      /* width: 213px; */
+      width: auto;
+  }
+  }
+
+.tituloverpartido{
+  display: contents;
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.partidoresumen {
+  height: 48px;
+  padding: 2px 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media (max-width: 1024px){
+  .partidoresumen {
+    padding: 2px 5px;
+}
+}
+
+@media (max-width: 767px){
+  .partidoresumen {
+    padding: 0px 0px 5px;
+    display: block;
+    height: auto;
+}
+}
+
+
+.resumenpartido {
+  padding: 0px;
+  width: 45px;
+}
+
+@media (max-width: 767px){
+  .resumenpartido {
+    padding: 0px 0px 5px;
+    display: block;
+    height: auto;
+    flex: 0 1 50%;
+    text-align: right;
+}
+
+}
+
+
+.resumenpartido a {
+  height: 100%;
+  min-height: 48px;
+  padding: 2px 10px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+@media (max-width: 1024px){
+  .resumenpartido  a {
+    padding: 2px 5px;
+    margin-top: -8px;
+}
+}
+
+
+.resumenpartido a * {
+  pointer-events: none;
+}
+
+.iconpartidoclub{
+
+  width: 12px;
+  height: 13px;
+}
+
+.iconpartidoclubes{
+  width: 24px;
+  height: 24px;
+
+}
+
+.kSOWNM{
+  display: none;
+}
+
+@media (max-width: 767px){
+  .kSOWNM .ghtret {
+      padding: 0px;
+  }
+  }
+@media (max-width: 767px){
+  .kSOWNM {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      position: relative;
+    background: rgb(37, 65, 80);
+
+  }
+  }
+
+.verdatospartidosclubees{
+  height: auto;
+    padding: 0px;
+    text-align: left;
+}
+
+@media (max-width: 767px){
+.verdatospartidosclubees {
+    display: block;
+    width: 100%;
+}
+}
+
+.estadisticasligaclub{
+  width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    padding: 0px 5px 2px;
+    height: 25px;
+}
+@media (max-width: 767px){
+.estadisticasligaclub {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+}
+
+
+.estadisticasligaclub .linkpartidoclub {
+  display: none;
+}
+
+@media (max-width: 767px){
+.estadisticasligaclub .linkpartidoclub {
+    display: flex;
+    flex: 1 1 calc(50% - 32px);
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    order: 3;
+    /*padding-top: 2px;
+    padding-bottom: 2px;*/
+}
+}
+
+@media (max-width: 767px){
+.estadisticasligaclub .linkpartidoclub a {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+}
+
+.verpartidoclubb{
+  display: block;
+    font-size: 0.7rem;
+    color: rgb(146, 218, 236);
+    line-height: 1.5;
+    margin-left: 72%;
+}
+
+
+.verpartidoclubbRESUMEN{
+    display: block;
+      font-size: 0.7rem;
+      color: rgb(146, 218, 236);
+      line-height: 1.5;
+
+  }
+
+@media (max-width: 767px){
+
+.estadisticasligaclub .linkpartidoclub a p {
+    display: inline;
+}
+}
+.estadisttticasb{
+
+font-family: font-laliga;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(254, 249, 206);
+    margin: 0px 5px;
+}
+
+@media (max-width: 767px){
+.estadisticasligaclub .linkpartidoclub a i {
+    color: rgb(146, 218, 236);
+}
+}
+
+.iconpartidoclubenbs{
+    width: 18px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+
+.descripcionesspartidov2{
+
+  position: relative;
+  background: rgb(72, 116, 116);
+
+}
+
+@media (max-width: 767px){
+  .descripcionesspartidov2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 10px 0px;
+}
+}
+
+
+.GRVX{
+  display: none;
+}
+
+@media (max-width: 767px){
+  .GRVX .ghtret {
+      padding: 0px;
+      position: relative;
+  background: rgb(72, 116, 116);
+  }
+  }
+@media (max-width: 767px){
+  .GRVX {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      position: relative;
+  background: rgb(72, 116, 116);
+
+  }
+
+  }
+
+
+
+  .diseñotablapuntos{
+   /*  background-color: #b13535; */
+    border-radius: 4px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 10px; */
+    display: block;
+    /* border-color: aliceblue; */
+    border: 1px solid transparent;
+}
+
+
+@media (max-width: 767px){
+    .diseñotablapuntos{
+        background-color: #000000;
+        border-radius: 10px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: 10px; */
+        display: block;
+    }
+}
+
+
+
+/* Aplica bordes redondeados en las esquinas */
+.bordes-redondeados th:first-child,
+.bordes-redondeados td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.bordes-redondeados th:last-child,
+.bordes-redondeados td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+.coloresthead{
+  background-color: #cdf404;
+  color: #000;
+}
+
+
+
+  .teamshome{
+
+    width: 0.03%;
+
+  }
+
+  .teamshomedata{
+    width: 0.08%;
+  }
+
+
+  .teamequipogeneralhome{
+    width: 1%;
+  }
+
+
+  .select-menu{
+    width: 380px;
+    margin: 140px auto;
+}
+.select-menu .select-btn{
+    display: flex;
+    height: 55px;
+    background: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.mensajeopcioninfo{
+  width: 100%;
+  background-color: #44475b00;
+  text-align: center;
+}
+
+.mensajegrupos{
+  width: 100%;
+
+}
+
+.mensajegrupos span{
+  font-size: 20px;
+  font-family:'abel';
+}
+
+@media (max-width: 767px){
+  .mensajegrupos span {
+    font-size: 15px;
+    font-family:'abel';
+
+  }
+
+  }
+
+.heartbeat {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-6-28 16:21:58
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation heartbeat
+ * ----------------------------------------
+ */
+ @-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+
+
+
+
+.rotate-in-center {
+	-webkit-animation: rotate-in-center 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotate-in-center 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-6-29 11:3:0
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-in-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+
+.textoequipo1{
+    margin-right: 6px;
+}
+
+@media (max-width: 767px){
+    .textoequipo1{
+        margin-right: 6px;
+        margin-top: 22px;
+    }
+
+
+}
+
+
+.textoequipo2{
+    margin-left: 6px;
+}
+
+
+
+@media (max-width: 767px){
+    .textoequipo2{
+        margin-left: 6px;
+         margin-top: 22px;
+    }
+
+}
+
+.textoequipo1referees{
+    margin-right: 6px;
+}
+
+.textoequipo2referees{
+    margin-left: 6px;
+}
+
+
+
+.bannerprogrmac{
+    background-image: url(../img/web/bannertablaliga.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.fotojugadorclub{
+    width: 100% !important;
+    height: 100% !important;
+    /* margin-left: -25px; */
+    /* /* margin-top: -54px; */
+    padding: 15px;
+}
+
+
+
+@media (max-width: 767px){
+    .fotojugadorclub{
+        width: 65% !important;
+    height: 100% !important;
+    /* margin-left: -23px; */
+    /* /* margin-top: -44px; */
+    }
+
+}
+
+
+
+.icononohaygoleadores {
+    width: 39%;
+    height: 59%;
+    opacity: 0.9;
+    margin-left: 8px;
+}
+
+.nohaygolesequipo {
+    height: 167px;
+    display: flex;
+    justify-content: center;
+    background: #000;
+    align-items: center;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.singoles {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 7px;
+    color: white;
+}
+
+
+
+.oculto-escritorio {
+    display: none; /* Por defecto, el div está oculto */
+  }
+
+  /* Media query para dispositivos con un ancho de pantalla máximo de 768px (ajusta este valor según tus necesidades) */
+  @media screen and (max-width: 768px) {
+    .oculto-escritorio {
+        display: block;
+        -webkit-align-items: center;
+        align-items: center;
+        background-color: #16181b;
+        /* background-color: var(--headerLowerRow); */
+        /* bottom: -1px; */
+        /* -webkit-box-shadow: 0 -2px 4px 0 rgba(0,0,0,.26); */
+        /* box-shadow: 0 -2px 4px 0 rgba(0,0,0,.26); */
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        display: -webkit-flex;
+        display: flex;
+        /* height: calc(48px + var(--sab)); */
+        /* -webkit-justify-content: flex-start; */
+        /* justify-content: flex-start; */
+        opacity: 1;
+        /* padding-top: 6px; */
+        position: fixed;
+        /* -webkit-transition: all .25s ease-in-out; */
+        -o-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;
+        width: 100%;
+        /* z-index: 60; */
+    }
+    }
+
+
+
+
+  @media (max-width: 767px){
+    .modocelularteams{
+        margin-bottom: -27px !important;
+    }
+
+}
+
+.modecelteamsshow{
+    max-width: 70% !important;
+    width: 40%;
+}
+
+@media (max-width: 767px){
+    .modecelteamsshow{
+        max-width: 70% !important;
+    }
+
+}
+
+
+.modecelteamsshowescudo{
+    max-width: 70% !important;
+}
+
+
+@media (max-width: 767px){
+    .modecelteamsshowescudo{
+        max-width: 70% !important;
+    }
+
+}
+
+
+.textomodocelresumen{
+
+    display: none;
+}
+
+
+@media (max-width: 767px){
+    .textomodocelresumen{
+        font-weight: bold;
+        display: block;
+    }
+
+}
+
+
+.shake-top {
+	-webkit-animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+ /* ----------------------------------------------
+ * Generated by Animista on 2024-2-6 19:36:19
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shake-top
+ * ----------------------------------------
+ */
+/* ----------------------------------------------
+ * Generated by Animista on 2024-2-6 19:42:16
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shake-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes shake-top {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+@keyframes shake-top {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+
+

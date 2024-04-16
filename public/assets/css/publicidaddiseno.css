@@ -1,0 +1,26 @@
+/* Estilos generales */
+
+.carruseldsd{
+    padding: 10px;
+}
+
+.carrusel-item{
+    width: 50%;
+}
+    .carruselpublicidad img
+    {
+        height: 100px;
+        object-fit: contain;
+        width: 50% !important;
+    }
+
+
+  /* Estilos específicos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .ccarruseldsd {
+      overflow: hidden;
+      margin: 0; /* Eliminamos el margen para ocupar todo el espacio */
+    }
+
+
+  }

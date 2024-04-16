@@ -1,0 +1,123 @@
+#block-bottommenumobile-2 {
+    --tw-shadow: 0 -16px 19px #0000000f;
+    --tw-shadow-colored: 0 -16px 19px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    height: 72px;
+}
+
+
+.tw-bg-white {
+    background-color: #000000;
+    /* border-color: #f7eded; */
+    /* border-width: 27px; */
+    border: 1px solid #515151;
+
+}
+
+
+.tw-z-50 {
+    z-index: 50!important;
+}
+
+.tw-right-0, .tw-right-\[0\] {
+    right: 0!important;
+}
+
+
+.tw-left-0 {
+    left: 0!important;
+}
+
+.tw-bottom-0 {
+    bottom: 0!important;
+}
+
+.tw-fixed {
+    position: fixed!important;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px;
+    height: 1px;
+    word-wrap: normal;
+}
+
+#block-bottommenumobile-2>ul {
+    display: inline-grid;
+    /* column-gap: 1.5rem; */
+    padding-left: 0.25rem;
+    /* padding-right: 1.25rem; */
+    justify-content: center;
+    /* -webkit-align-items: center; */
+    /* align-items: center; */
+    /* background-color: #16181b; */
+    /* background-color: var(--headerLowerRow); */
+    color: #7f97ab;
+    color: var(--medium);
+    display: -webkit-flex;
+    display: flex;
+    /* -webkit-flex-direction: column; */
+    /* flex-direction: column; */
+    font-size: 10px;
+    height: 90%;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: -3px !important;
+    border-bottom: none;
+}
+
+#block-bottommenumobile-2>ul li {
+    position: relative;
+    width: 100%;
+    flex: 1 1 auto;
+    padding-top: 0.5rem;
+    /* padding-bottom: 1rem; */
+    text-align: center;
+}
+
+#block-bottommenumobile-2>ul li:before {
+    left: calc(100% + 4px);
+    position: absolute;
+    top: 50%;
+    height: 60%;
+    width: 1px;
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    background-color: var(--color-mercury);
+    --tw-content: "";
+    content: var(--tw-content);
+}
+
+#block-bottommenumobile-2>ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 0.25rem;
+    font-size: 13px;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: white;
+    font-family: 'abel';
+
+}
+
+.iconmenuapp {
+    width: 35px;
+    height: 33px;
+
+}
+
+
+
+/* Media query para dispositivos con un ancho de pantalla máximo de 768px (ajusta este valor según tus necesidades) */
+@media screen and (max-width: 768px) {
+    .oculto-escritorio {
+      display: block; /* Mostrar el div en dispositivos móviles */
+      /* Estilos adicionales para el menú móvil */
+    }
+  }

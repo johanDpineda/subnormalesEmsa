@@ -1,0 +1,579 @@
+.top-stats {
+    width: 100%;
+}
+
+.top-stats__title {
+    margin-bottom: 0.8rem;
+    text-align: center;
+    background-color: #00000047;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.top-stats__title a {
+    color: #d0f804;
+    font-family: 'abel';
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.top-stats__wrapper {
+    border: 0.1rem solid transparent;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top-stats__hero.t43 {
+    background: linear-gradient(284.38deg,#caf004,#dbf16c);
+}
+
+.top-stats__hero {
+    font-family: PremierSans-Heavy,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    letter-spacing: -.04rem;
+    height: 13.5rem;
+    overflow: hidden;
+    position: relative;
+}
+.top-stats__svg-decoration {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    opacity: .03;
+}
+
+.top-stats__hero-link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.top-stats__hero-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.6rem 1.4rem;
+    z-index: 10;
+    color: inherit;
+}
+
+.top-stats__vencida-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.6rem 1.4rem;
+    z-index: 10;
+    color: inherit;
+    direction: rtl;
+}
+
+.top-stats__vencida-image {
+    width: 12.6rem;
+    /*margin-top: 0.9rem;*/
+}
+
+.top-stats__hero-image {
+    width: 165px;
+    margin-top: 0.9rem;
+    height: 200px;
+
+}
+
+
+
+.top-stats__hero-ground, .top-stats__hero-pos {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #d0f027;
+    width: 26px;
+    /* height: 100px; */
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    height: 28px;
+    margin-bottom: 4px;
+    background: #000;
+}
+.top-stats__hero-first {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #353432;
+    text-align: end;
+}
+
+.top-stats__hero-last, .top-stats__hero-name {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #353432;
+    text-align: end;
+}
+
+.top-stats__hero-lastd{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #353432;
+    text-transform: uppercase;
+}
+.top-stats__hero-club-info {
+    display: flex;
+    /* height: 2rem; */
+    /* margin-top: 0.6rem; */
+    /* gap: 0.4rem; */
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+}
+.top-stats__hero-club-info .badge-image {
+    width: 3.5rem;
+    height: 3.5rem;
+    /*top: -8px;*/
+    position: relative;
+}
+
+.destacado {
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+@media (max-width:767px) {
+    .top-stats__hero-club-info .badge-image {
+        width: 3rem;
+        height: 3rem;
+        top: -1px;
+        position: relative;
+        right: 54px;
+    }
+
+    .top-stats__hero-image {
+        width: 149px;
+        margin-top: 0.9rem;
+        height: 200px;
+
+    }
+
+    .top-stats__vencida-image {
+        width: 12.6rem;
+        /* margin-top: 0.9rem; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.top-stats__hero-club-infos .badge-image {
+    width: 3rem;
+    height: 3rem;
+    top: 44px;
+    position: relative;
+}
+
+@media (max-width:767px) {
+    .top-stats__hero-club-infos .badge-image {
+        width: 3rem;
+        height: 3rem;
+        top: 44px;
+        position: relative;
+        right: 7px;
+    }
+}
+.badge-image-container .badge-image {
+    vertical-align: middle;
+}
+
+.top-stats__hero-club-name {
+    font-family: PremierSans-Regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #353432;
+    margin-left: 5px;
+}
+
+.top-stats__hero-stat {
+    font-size: 3.9rem;
+    line-height: 3.9rem;
+    color: #fff;
+    text-align: center;
+    background: #000;
+    padding: 5px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.top-stats__row {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0.8rem 0.8rem 1.2rem;
+    justify-content: space-between;
+    position: relative;
+    background-color: #000000ab;
+}
+
+.top-stats__row-info {
+    display: flex;
+    align-items: center;
+}
+.top-stats__row * {
+    color: #37003c;
+    text-decoration: none;
+}
+.top-stats__row-pos {
+    font-family: PremierSans-Heavy,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-right: 0.8rem;
+    min-width: 1.3rem;
+    color: white;
+}
+.top-stats__row .badge {
+    margin-right: 0.8rem;
+}
+
+.top-stats__vencida-image img{
+    width: 100%;
+    margin: 10px;
+}
+
+.top-stats__hero-image img {
+    width: 100%;
+margin-left: 10px;
+height: 100%;
+}
+
+
+
+
+
+@media (max-width:767px) {
+    .top-stats__hero-image img {
+        width: 100%;
+    }
+    .top-stats__vencida-image img {
+        width: 100%;
+        margin-left: 15px !important;
+        margin: 0px;
+
+    }
+  }
+
+.top-stats__row .badge img {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.badge-image-container .badge-image {
+    vertical-align: middle;
+}
+.top-stats__row-team-info {
+    display: flex;
+    flex-direction: column;
+}
+.top-stats__row-name {
+    font-size: 1.10rem;
+    line-height: 1.8rem;
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+.top-stats__row-team-name {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    color: #abc81f;
+    text-transform: uppercase;
+}
+.top-stats__row-stat {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-family: Abel;
+    font-weight: 400;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    background: #d4ff00;
+}
+
+
+
+
+
+.top-stats__button {
+    margin-top: -0.8rem;
+}
+
+.global-btn {
+    min-width: 19rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #000000;
+    color: #fbfafb;
+
+    padding: 1.2rem 5.6rem;
+    transition: background-color .2s ease-in-out;
+    margin-top: -16px;
+}
+
+.global-btn:before {
+    content: "";
+    display: block;
+}
+.top-stats__button .icon {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-left: 0.8rem;
+}
+
+
+.ggrg{
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+.badgenm .badge-image-container{
+
+    width: 20px;
+}
+
+.nombreclubgoleador{
+    /*top: 110px;*/
+    /*left: 70px;*/
+    /*position: absolute;*/
+    text-transform: uppercase;
+}
+
+@media (max-width:767px) {
+    .nombreclubgoleador{
+        top: 20px;
+        /* left: 64px; */
+        right: 23px;
+        position: absolute;
+        font-size: 16px;
+        font-family: 'Abel';
+        color: #020202;
+        font-weight: 600;
+    }
+
+    .top-stats__row-name {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+        font-weight: 400;
+        color: white;
+        text-transform: uppercase;
+    }
+  }
+
+  .nombreclubvalla{
+    top: 99px;
+    left: 70px;
+    position: absolute;
+}
+
+@media (max-width:767px) {
+    .nombreclubvalla{
+        top: 99px;
+        left: 64px;
+        position: absolute;
+        font-size: 16px;
+        font-family: 'Abel';
+        color: #020202;
+        font-weight: 600;
+    }
+  }
+
+/* TABLA DE POSICIONES HOME */
+
+
+.nav-gruposHOME{
+
+    border: none !important;
+      box-shadow: none !important;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+
+  .nav-tabsHOME{
+    background-color: transparent !important;
+  }
+
+  .cuadrodiv{
+    background-color: #000000;
+    width: 100%;
+  }
+
+  .titulogruposGF {
+    color: rgba(12, 255, 244, 1);
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.TITLEGRUPBV {
+    width: 100%;
+    /* height: 5.2rem; */
+    /* background-image: url(../i/elements/backgrounds/sm-header-pattern.svg); */
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 0.8rem 0.8rem 0 0; */
+    margin-bottom: -25px;
+}
+
+.TITLEGRUPBV li {
+    padding: 10px;
+    background: #85929E;
+    background-color: #717D7E;
+    display: block;
+    transition: 400ms;
+    justify-content: center;
+    align-items: center;
+}
+
+.ordenliguepoints{
+    margin-right:15px ;
+}
+
+@media (max-width:767px) {
+    .ordenliguepoints{
+       margin-top: 5px;
+    }
+
+  }
+
+.ordenliguepoints button {
+
+    font-family: 'abel'  !important;
+    font-size: 20px  !important;
+    border-radius: 10px  !important;
+    border: none  !important;
+    margin-right: 20px  !important;
+    margin-bottom: 5px  !important;
+}
+
+.ordenliguepoints button:hover {
+    color: black !important;
+    background-color:#cef504e3 !important;
+
+}
+
+.ordenliguepoints .nav-link.active {
+    color: #000000 !important;
+    background-color:  #d4ff00 !important;
+
+}
+
+.nav-item-home-2 .nav-link.active {
+    color: #000000 !important;
+    background-color:  #d4ff00 !important;
+
+}
+
+.nav-item-home-2 button:hover {
+    color: black !important;
+    background-color:#cef504e3 !important;
+
+}
+
+.nav-item-home-2 button {
+
+
+    font-family: 'abel'  !important;
+    font-size: 20px  !important;
+    border-radius: 10px  !important;
+    border: none  !important;
+    margin-right: 15px  !important;
+
+}
+
+.ordenliguepoints button:focus {
+    color: black !important;
+
+
+}
+
+.titulogrupohome{
+    font-size: 2rem;
+    line-height: 3.8rem;
+    font-family: 'abel';
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 44px;
+    margin-bottom: 0px;
+}
+
+@media (max-width:767px) {
+    .titulogrupohome{
+        font-size: 1.1rem;
+        line-height: 0.8rem;
+        font-family: 'abel';
+        font-weight: 400;
+        color: #ffffff;
+        padding-top: 30px;
+        /* padding-left: 13px; */
+    }
+
+  }
+
+
+.btnfulllista{
+    max-width: 30%;
+    max-height: 20%;
+}
+.btnfulllistaimg{
+    width: 33px;
+
+}
+
+.titulolistadogole {
+    width: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -25px;
+}
+
+.titulogrupohomebv{
+    font-size: 2rem;
+    line-height: 3.8rem;
+    font-family: 'abel';
+    font-weight: 400;
+    color: #cef504;
+}
+
+.verlistacompleta{
+    min-width: 8rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #000000;
+    color: #fbfafb;
+    transition: background-color .2s ease-in-out;
+
+}

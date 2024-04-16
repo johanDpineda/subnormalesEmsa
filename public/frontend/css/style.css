@@ -1,0 +1,450 @@
+body{
+    font-family: Abel;
+    overflow-x: hidden;
+    background-color: #eaeaea;
+}
+table{
+    font-size: 1.05rem;
+}
+.match__info--date {
+    font-size: 1.1rem !important;
+}
+.teamequipogeneral a{
+    font-size: 1.05rem;
+}
+.match__info--tournament {
+    font-size: .8rem !important;
+}
+/*.table_body{*/
+/*    background-color: #00000026 !important;*/
+/*}*/
+.listagoleadoresdsd .tab-content{
+background-color: #0d0d0d8c !important;
+}
+.diseñotablapuntos{
+    border: 1px solid transparent !important;
+}
+/*Sponsor Carousel*/
+.sponsors.carousel .carousel-cell {
+    width: 20%;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 5px;
+    opacity: 0.5;
+    filter:grayscale(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gt3-page-title{
+    background-color: #f2f2f2 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+    height: 180px; color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    padding-top: 0px;
+    text-align: center;
+}
+.gt3-page-title__content .page_title h1,.gt3-page-title__content .breadcrumbs a,.gt3-page-title__content .current{
+    text-shadow: 2px 2px 4px rgb(0 0 0);
+}
+.background-league {
+    width: 100%;
+    /* margin: 0px auto; */
+    /* min-height: 600px; */
+    position: relative;
+    background-color: #f2f2f2 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+    background-size: cover;
+    background-position: center;
+   
+}
+/*.background-league .content{
+    background-blend-mode: overlay;
+    background: linear-gradient(180deg, rgb(10 10 10 / 77%) 3%, rgb(3 3 3 / 2%) 49%, rgb(10 10 10 / 88%) 97%);
+}*/
+.bg-navbar-theme {
+    background-color: #0000006e  !important;
+    color: #ffffff;
+}
+.bg-navbar-theme .navbar-nav > .nav-link, .bg-navbar-theme .navbar-nav > .nav-item > .nav-link, .bg-navbar-theme .navbar-nav > .nav > .nav-item > .nav-link {
+    color: #ffffff;
+    font-size: 1.05rem;
+}
+.team-card .avatar-xxl {
+    width: 35rem !important;
+    height: auto !important;
+}
+
+@media (max-width: 700px){
+    .team-card .avatar-xxl {
+        width: 15rem !important;
+        height: auto !important;
+    }
+ }
+
+ .team-card .avatar-teams {
+    width: 35rem !important;
+    height: auto !important;
+}
+
+@media (max-width: 700px){
+    .team-card .avatar-teams {
+        width: 15rem !important;
+        height: auto !important;
+    }
+ }
+.team-card .list-unstyled li{
+    display: flex;
+    justify-content: space-between;
+}
+.team-card .team-info{
+    text-align: end;
+}
+.sponsors.carousel .carousel-cell img {
+    width: 70%;
+    object-fit: contain;
+}
+.sponsors.carousel .flickity-page-dots{
+    display:none;
+}
+.sponsors.carousel .flickity-prev-next-button.previous{
+    display:none;
+}
+.sponsors.carousel .flickity-prev-next-button.next{
+    display:none;
+}
+.sponsors_footer.carousel .carousel-cell {
+    width: 20%;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sponsors_footer.carousel-cell:before {
+    display: block;
+    text-align: center;
+
+    line-height: 200px;
+  }
+
+.sponsors_footer.carousel .carousel-cell img {
+    width: 70% !important;
+    height: auto !important;
+    object-fit: contain;
+}
+.sponsors_footer.carousel .flickity-page-dots{
+    display:none;
+}
+.sponsors_footer.carousel .flickity-prev-next-button.previous{
+    display:none;
+}
+.sponsors_footer.carousel .flickity-prev-next-button.next{
+    display:none;
+}
+
+
+
+.sponsors_footerpublicity.carousel .carousel-cell {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.sponsors_footerpublicity.carousel-cell:before {
+    display: block;
+    text-align: center;
+
+    line-height: 200px;
+  }
+
+.sponsors_footerpublicity.carousel .carousel-cell img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
+}
+.sponsors_footerpublicity.carousel .flickity-page-dots{
+    display:none;
+}
+.sponsors_footerpublicity.carousel .flickity-prev-next-button.previous{
+    display:none;
+}
+.sponsors_footerpublicity.carousel .flickity-prev-next-button.next{
+    display:none;
+}
+
+
+
+
+
+
+.partidosclubes {
+    width: 100%;
+    font-size: 1.1rem !important;
+}
+.modal-body .player-info .player-details .details-cell p{
+    display: flex;
+    justify-content: space-between;
+}
+/* .site-header{
+    height: 80px;
+    margin-top: 15px;
+} */
+.site-header{
+    height: 100px;
+    background-color:#0e1a40 !important ;
+}
+.iteraction-fixed{
+    position: absolute;
+    margin-bottom: 4px;
+    left: 3%;
+    bottom: 6%;
+}
+button#menu-button {
+    display: none;
+
+}
+.cerrar{
+    display: none;
+}
+.container-menu{
+    display: none;
+}
+.btn-menu{
+    display: none;
+}
+
+#btn-menu{
+    display: none;
+}
+
+.offcanvasmenumi{
+    display: none;
+}
+
+.btnoffcanvasmi{
+    display: none !important;
+}
+
+.navbar-image {
+    /* position: absolute; */
+    top: -10px;
+    /* left: 20px; */
+    /*width: 100px;*/
+    height: auto;
+
+  }
+
+@media screen and (max-width: 1500px) {
+    .mc-summary__scorebox-container {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .sponsors_footer.carousel .carousel-cell{
+        width: 50%;
+    }
+    .sponsors.carousel .carousel-cell{
+        width: 50%;
+    }
+    .site-header{
+        height: auto;
+        margin-top: 15px;
+        background-color: transparent !important;
+    }
+
+    .offcanvasmenumi{
+        display: block;
+    }
+
+    .btnoffcanvasmi{
+        display: block !important;
+    }
+
+
+    /*Menù lateral*/
+	#btn-menu{
+		display: none;
+	}
+    .container-menu{
+        display: block;
+    }
+    .btn-menu{
+        display: block;
+    }
+
+    /* Estilos para la etiqueta overlay que cubrirá la pantalla */
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Un fondo semitransparente para cubrir la pantalla */
+            z-index: 1; /* Colocar encima de todo */
+            cursor: pointer;
+        }
+	.container-menu{
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+		height: 100vh;
+		top: 0;left: 0;
+		transition: all 500ms ease;
+		opacity: 0;
+		visibility: hidden;
+	}
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+	}
+
+    /* Cierra el menú cuando se hace clic en la overlay */
+        #btn-menu:checked + .menu-container .overlay {
+            display: block;
+            cursor: pointer;
+        }
+
+        /* Utiliza :focus-within para cerrar el menú cuando se hace clic fuera de él */
+.cont-menu:focus-within {
+    display: none;
+}
+	.cont-menu{
+		width: 100%;
+		max-width: 250px;
+		background: #1c1c1c;
+		height: 100vh;
+		position: relative;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+	}
+
+
+	.cont-menu nav{
+		transform: translateY(15%);
+	}
+	.cont-menu nav a{
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #c7c7c7;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.cont-menu nav a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+	}
+	.cont-menu label{
+		position: absolute;
+        right: -5px;
+        top: -4px;
+		/* right: 5px;
+		top: 10px; */
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+	}
+
+    button#menu-button {
+        display: block; /* Mostrar el botón en pantallas pequeñas */
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    #menu {
+        display: block; /* Ocultar el menú en pantallas pequeñas (se mostrará al hacer clic en el botón) */
+        position: fixed;
+        top: 0;
+        margin-left: -23px;
+        width: 250px;
+        height: 100%;
+        background-color: #333;
+        transition: 0.3s;
+    }
+
+    #menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #menu ul li {
+        padding: 15px;
+        text-align: right;
+    }
+
+    #menu ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /* .containerdsd {
+        display: flex;
+      } */
+
+
+      .columnmovilapp {
+        text-align: center;
+      }
+
+      .columnmovilapp img {
+        max-width: 100%; /* Ajusta el tamaño máximo de la imagen al div */
+        height: auto; /* Mantiene la proporción de aspecto de la imagen */
+        display: block; /* Evita el espacio adicional debajo de la imagen */
+        margin: 0 auto 10px; /* Centra horizontalmente la imagen y agrega margen en la parte inferior */
+    }
+      .contenedorbtnmenu{
+        display: flex;
+        justify-content: flex-end; /* Alinea los elementos al final del contenedor */
+      }
+
+      .offcanmovilmenu{
+        position: fixed !important;
+        bottom: 0 !important;
+        z-index: var(--bs-offcanvas-zindex) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        max-width: 70% !important;
+        color: var(--bs-offcanvas-color) !important;
+        visibility: hidden !important;
+        background-color: var(--bs-offcanvas-bg) !important;
+        background-clip: padding-box !important;
+        outline: 0 !important;
+        transition: transform 0.25s ease-in-out !important;
+      }
+
+      .navbar-image {
+        position: absolute;
+        top: -10px;
+        left: 20px;
+        /*width: 80px;*/
+        height: 80px !important;
+
+      }
+
+
+    .limenu{
+        border-bottom: 0.1px solid rgb(255 255 255 / 16%);
+    }
+    .imgappmifutbol{
+        margin-top: 6px;
+    }
+}
+

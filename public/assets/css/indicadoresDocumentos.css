@@ -1,0 +1,114 @@
+.estado-activo {
+    display: inline-flex; /* Usar flexbox para alinear verticalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.estado-activo::before {
+    content: "";
+    width: 10px; /* Ancho del indicador */
+    height: 10px; /* Alto del indicador */
+    border-radius: 50%; /* Para obtener un círculo */
+    background-color: green; /* Color del indicador cuando está activo */
+    margin-right: 5px; /* Espacio entre el indicador y la palabra */
+    animation: parpadeo 1s infinite alternate; /* Animación de parpadeo */
+}
+
+.estado-activo::after {
+    content: "Completo";
+    color: green; /* Color del texto */
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1; /* Círculo totalmente visible */
+    }
+    100% {
+        opacity: 0.5; /* Círculo completamente transparente */
+    }
+}
+
+.estado-inactivo {
+    display: inline-flex; /* Usar flexbox para alinear verticalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.estado-inactivo::before {
+    content: "";
+    width: 10px; /* Ancho del indicador */
+    height: 10px; /* Alto del indicador */
+    border-radius: 50%; /* Para obtener un círculo */
+    background-color: red;
+    margin-right: 5px; /* Espacio entre el indicador y la palabra */
+    animation: parpadeo 1s infinite alternate; /* Animación de parpadeo */
+}
+
+.estado-inactivo::after {
+    content: "Incompleto";
+    color: red; /* Color del texto */
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1; /* Círculo totalmente visible */
+    }
+    100% {
+        opacity: 0.5; /* Círculo completamente transparente */
+    }
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+#miTabla {
+    /* Estilos generales de la tabla */
+}
+
+.condensada td {
+    /* Estilos para las celdas cuando la tabla está condensada */
+    /* Por ejemplo, puedes reducir el tamaño de fuente, el espaciado, etc. */
+    font-size: 0.8em;
+    transition: all 0.3s ease; /* Transición suave para los cambios de tamaño */
+}
+
+@media (max-width: 767px) {
+    .cardmovile {
+        width: max-content !important;
+    }
+
+    .imagemovile {
+        font-size: 4em !important;
+        margin-top: 15px !important;
+    }
+    .titlemovile {
+        font-size: 16px !important;
+    }
+
+    .textdateinmovil {
+        font-size: 14px;
+    }
+
+    .textdateexpmovil {
+        font-size: 14px;
+    }
+
+    .textnamedocmovil {
+        font-size: 14px;
+    }
+    .btnmovil {
+        padding: 8px;
+    }
+
+    .cardmap-movil{
+        width:100%;
+    }
+}
+
+
+.hiddenpreload {
+    display: none !important;
+}
+
+.menu-item.active:hover a {
+    background-color: #6552bd !important;
+}
